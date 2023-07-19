@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline-block 실습</title>
+
+    <style>
+
+    /* 기본적으로 inline 태그는 width와 height가 적용이 안됨. */
+    /* 그런데 width와  height를 적용하려면 inline-block 사용 */
+      a{
+        background-color: yellow;
+        width: 50px;
+        height: 50px;
+      }
+
+      #x{
+        background-color: aqua;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+      }
+
+    </style>
+</head>
+<body>
+
+  <a href="">daum.net</a><br>
+  <span id="x">xxx</span>
+
+  <div  class="one">
+    <p>Hello</p>
+    <p>world</p>
+   </div>
+
+   <div class="two">
+    <p>Hello2</p>
+    <p>world2</p>
+   </div>
+
+   <p>Hello3<span>world3</span></p>
+
+   
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css실습</title>
+
+    <style>
+
+     /* 자식이 없는 요소 반환 : empty */
+     p:empty{
+        background-color: yellow;
+        width: 20px;
+        height: 20px;
+     }
+
+     div{
+        background-color: red;
+        width: 10px;
+        height: 10px;
+     }
+
+    </style>
+</head>
+<body>
+    <!-- width하고 height 안주면 비어있다고 인식해서 영역을 잡을 수 없음 -->
+    <p></p>
+    <p>2</p>
+    <p>3</p>
+    <div>
+
+    </div>
+</body>
+</html>

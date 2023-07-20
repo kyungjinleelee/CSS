@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포지션 실습</title>
+
+    <style>
+      img{
+        position: fixed;
+        top: 0px;
+        left: 0px; /* 일부러 글꼴과 이미지가 겹치게 만든다음, */
+        z-index: -1; 
+        /* z-index 값은 기본값이 0 */
+        /* -1을 주면 글꼴 뒤로 이미지가 넘어가게 됨 */
+      }
+     
+    </style>
+
+
+</head>
+
+<body>
+  <h1>This is a heading</h1>
+    <img src="images/001.png" width="100" height="140">
+    <p>Because the image has a z-index of -1, 
+      it will be placed behind the text.</p>
+</body>
+</html>
